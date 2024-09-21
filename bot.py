@@ -19,7 +19,7 @@ async def hello(ctx):
 
 @bot.command()
 async def bye(ctx):
-    await ctx.send("\\U0001f642")
+    await ctx.send(">:/")
 
 @bot.command()
 async def passgen(ctx, length: int = 10):
